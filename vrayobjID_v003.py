@@ -67,3 +67,4 @@ class Asset(SceneVrayObjID):
 
 	def makeNewStuff(self):
 		test
+# test
