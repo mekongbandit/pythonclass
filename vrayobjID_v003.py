@@ -64,3 +64,6 @@ class Asset(SceneVrayObjID):
 
 	def getGeos(self):
 		geos = mc.ls('{0}:*_geoShape'.format(asset),)
+
+	def makeNewStuff(self):
+		test
