@@ -60,8 +60,6 @@ class Asset(SceneVrayObjID):
 	def getIDnumbers(self):
 		pass
 	
-
-
 	def getGeos(self):
 		geos = mc.ls('{0}:*_geoShape'.format(asset),)
 
